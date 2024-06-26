@@ -1,5 +1,5 @@
 {
-  "name": "device-detector",
+  "name": "device-type-detector",
   "version": "1.1.0",
   "description": "A simple npm package to detect device type based on user agent and screen size.",
   "main": "dist/index.js",
