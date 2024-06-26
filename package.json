@@ -1,0 +1,29 @@
+{
+  "name": "device-detector",
+  "version": "1.1.0",
+  "description": "A simple npm package to detect device type based on user agent and screen size.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "device",
+    "detector",
+    "mobile",
+    "tablet",
+    "desktop",
+    "screen size",
+    "user agent"
+  ],
+  "author": "Md Ruhin Mia <ruhin.dev@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/me-ruhin/device-detector.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.2.2"
+  }
+}
