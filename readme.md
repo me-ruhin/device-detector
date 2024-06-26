@@ -14,30 +14,12 @@ NPM
 ```sh
 $ npm install device-type-detector --save
 ```
-Bower
+ Yarn
 ```sh
-$ bower install device-type-detector
-
+$ yarn add device-type-detector
 ```
 
-
-### Setup
-
-You can set custom detectors at the provider object.
-The 
-
-
-
-> Custom detectors will also be added as CSS classes with 'is-' prefix and encoded into css class name casing.
-
-### deviceDetector service
-Holds the following properties:
-* raw : object : contains the raw values... for internal use mostly.
-* os : string : name of current OS
-* browser : string : name of current browser
-* device : string : name of current device
-
-### Example
+### How to use in React
 
 ```typescript
 import React, { useEffect, useState } from 'react';
@@ -63,6 +45,8 @@ export default App;
 ```
 
 
+### How to use in Javascript
+
 ```javascript
 
 const deviceType = getDeviceType();
@@ -72,4 +56,4 @@ console.log(deviceType); // Outputs: 'mobile', 'tablet', 'desktop', or 'unknown'
 
 ### License
 
-[MIT License](//github.com/srfrnk/ng-device-detector/blob/master/license.txt)
+[MIT License](//https://github.com/me-ruhin/device-detector/license.txt)
