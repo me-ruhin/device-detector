@@ -1,5 +1,5 @@
 # device-type-detector
-##### Angular module to detect OS / Browser / Device
+##### React module to detect OS / Browser / Device
 
 [![npm version](https://badge.fury.io/js/device-detector.svg)](https://badge.fury.io/js/device-detector)
 [![GitHub issues](https://img.shields.io/github/issues/me-ruhin/device-detector.svg)](https://github.com/me-ruhin/device-detector/issues)
